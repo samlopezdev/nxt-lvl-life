@@ -1,21 +1,22 @@
 # Nxt Lvl Life
-A full stack vision boarding app, built to help others explore and design their life in detail.
+A comprehensive vision boarding application designed to assist individuals in exploring their interests and crafting their life with precision.
 
 **Link to project:** TBD
 
-![Brookshutter Photography Homepage](https://github.com/user-attachments/assets/941c7e8b-1c06-4ab5-b772-539ad1f912c9)
+![NxtLvlLife_Lifestyle-Panel](https://github.com/user-attachments/assets/80395d15-5be7-4025-9e4c-e95237f26c08)
+![NxtLvlLife_Collage](https://github.com/user-attachments/assets/3e51612a-812f-4f45-8261-bcfacbae7fb0)
 
 
 ## How It's Made:
 
 **Tech used:** React, JavaScript, Tailwind, Express, Node, MongoDB
 
-I was inspired to create this project because I wished I had an app like this while I was still trying to figure out what I wanted to do as a career or just life in general.
+I was motivated to develop this project because I often wished I had a resource like this during my own journey of discovering my career and life options. Back then, I often felt lost and overwhelmed by the multitude of choices and uncertainties ahead of me, and I wanted a tool that could help me figure out how I could live a fulfilling life. This app aims to provide that clarity and support, making it easier for others to navigate their own journeys by creating vision boards and setting achievable goals to reach their dreams. My goal was to build a platform where users can explore their passions and make informed choices, just like I wished I could have done in the past.
 
 ## Optimizations
 
-I'd like to expand the 'Goal' area of this app, since there is a lot more to setting sustainable goals, than just a simple list. Additionally, I'd like to do something more with the Profile page. Maybe add some extra information on how the app works? Eventually it would be cool to let people add more than just images to their panel. Givinig a user the freedom to upload videos, text, or use URLs to link pages could be super beneficial.
+I want to improve the 'Goal' section of this app to clarify the process of setting achievable goals. This enhancement will involve providing more comprehensive information, because setting sustainable goals requires much more than just writing a simple list. I also think we could enhance the Profile page by incorporating further details about the app's functionality. Eventually it would be great to enable users to add more than just images to their panels. Giving them the freedom to upload videos, text, or link to web pages could be super beneficial to a users experience. I also want to add lightbox of some way to click on the images without taking them directly to the link.
 
 ## Lessons Learned:
 
-I explored different methods for achieving an image transition effect on the Home page, utilizing keyframes to rotate between images. Also found an effective method to add a stroke effect around text using the CSS text-shadow property. Additionally, I incorporated Lightbox for the first time, allowing clients to click on photos for a closer view.
+This project turned out to be an incredible learning experience for me. It was my first attempt at creating a login screen, which went really well. Additionally, I had the opportunity to use Tailwind for the first time, moving away from my usual vanilla CSS to explore a more modern approach to styling. I also delved into using Cloudinary extensively for image storage, which added another layer of knowledge to my skill set.
