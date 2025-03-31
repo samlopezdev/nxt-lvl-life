@@ -11,16 +11,16 @@ export default function About() {
         <p className="mb-6 text-justify text-sm md:text-base">
           Many people go through life without a clear sense of purpose. To
           create the life you want, it&apos;s important to reflect on what
-          brings you happiness and fulfillment. This involves looking at past
-          experiences, identifying passions, and recognizing the activities,
-          relationships, and goals that make you feel most alive.
+          brings you happiness and fulfillment. This involves reflecting on past
+          experiences, identifying your passions, and recognizing the
+          activities, relationships, and goals that make you feel the most alive.
         </p>
         <p className="mb-6 text-justify text-sm md:text-base">
-          <span className="font-semibold">NxtLvlLife</span> was created to help
-          you construct a detailed image of the life you desire by building
-          personalized vision boards focused on different areas of your life.
-          This action can provide you with a clearer understanding of your goals
-          and the steps needed to achieve them! By letting your heart and
+          <span className="font-semibold">NxtLvlLife</span> was
+          designed to help you create a clear picture of the life you want by
+          crafting customized vision boards that target various aspects of your
+          life. This can provide you with a much clearer understanding of your
+          goals and the steps needed to achieve them! By letting your heart and
           desires govern the creative process without holding back, you
           inheritly let this vision influence your day-to-day desicions.
         </p>
