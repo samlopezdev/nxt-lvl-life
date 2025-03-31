@@ -102,7 +102,7 @@ export default function MediaContent() {
           )}
         </label>
 
-        {images.length ? (
+        { images.length ? (
           images.map((img) => {
             return (
               <PanelMedia
