@@ -11,7 +11,7 @@ export default function InfoSection() {
           icon={"bx bxs-category-alt"}
           title={`Categorize Your Goals`}
           paragraph={
-            "Create a custom list of categories that resonate with you! Consider various areas of your life, like your profession, lifestyle choices, and financial goals. Set specific goals within each category and include motivating images to inspire your vision."
+            "Create a custom list of categories that resonate with you! Set specific goals within each category and include motivating images to inspire your vision."
           }
         />
 
@@ -19,7 +19,7 @@ export default function InfoSection() {
           icon={"bx bxs-palette"}
           title={`Personalization is Key`}
           paragraph={
-            "Make vision boards to bring your dream to life! Whether it's snapshots of the city you dream of living in, the delicious foods you wish to try, or even the aesthetic you want to embody. Envisioning yourself in that desired reality is a crucial step toward achieving it."
+            "Make detailed panels to bring your dream to life! Whether it's snapshots of the city you dream of living in, the delicious foods you wish to try, or even the aesthetic you want to embody."
           }
           className="col-span-2"
         />
@@ -28,7 +28,7 @@ export default function InfoSection() {
           icon={"bx bxs-badge-check"}
           title={`Consistency Beats Perfection`}
           paragraph={
-            "To transform your vision boards into reality, you must establish systems that align with your objectives. Simply adding images of the gym to your vision board won't won't be effective unless you actively commit to visiting the gym."
+            "Establish habits that align with your objectives. Simply adding images of the gym to your vision board won't won't be effective unless you actively commit to visiting the gym."
           }
         />
       </div>

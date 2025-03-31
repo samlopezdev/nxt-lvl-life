@@ -23,13 +23,13 @@ export default function SummarySection() {
           />
 
           <SummaryItem
-            title="Design Custom Panels"
-            paragraph="After making an account, start by creating a few panels! These panels should represent different areas of your life that matter most to you— whether it's your profession, lifestyle choices, or financial goals. Use images that inspire you to bring these dreams to life! Be unapologetically creative and let your desires guide you. The goal here is to vividly illustrate your ideal future by creating a virtual vision board that captures your unfiltered dreams."
+            title="Create Custom Panels"
+            paragraph="After making an account, you can create your very own categories, or Panels! These Panels should represent different areas of your life that matter most to you— whether it's your profession, lifestyle choices, or financial goals. Use images that inspire you to bring these dreams to life! Be unapologetically creative and let your desires guide you. The goal here is to vividly illustrate your ideal future by creating a virtual vision board that captures your unfiltered dreams."
           />
 
           <SummaryItem
             title="The Power of Visualization"
-            paragraph="Creating detailed panels goes beyond just being a fun activity— it’s a powerful tool for manifesting your goals. By immersing yourself in the concepts and ideas on your panels, you actively engage in the act of visualizing your success! This practice reinforces positive neural pathways in your brain, promoting new behaviors and habits that align with your ambitions. By making this a regular routine, you train your mind to instinctively gravitate toward actions that bring you closer to your goals."
+            paragraph="Creating detailed Panels goes beyond just being a fun activity— it’s a powerful tool for manifesting your goals. By immersing yourself in the concepts and ideas on your Panels, you actively engage in the act of visualizing your success! This practice reinforces positive neural pathways in your brain, promoting new behaviors and habits that align with your ambitions. By making this a regular routine, you train your mind to instinctively gravitate toward actions that bring you closer to your goals."
           />
 
           <SummaryItem
@@ -39,12 +39,12 @@ export default function SummarySection() {
 
           <SummaryItem
             title="Understand Your 'Why'"
-            paragraph="As you create your panels, take a moment to consider the underlying motivations driving your desires. What inspires you to chase this particular vision for your life? What compels you to pursue these goals? This self-awareness is crucial for defining your intentions and instilling a sense of purpose. This clarity will help you remain focused and committed to your objectives, even in the face of obstacles."
+            paragraph="As you add more details to your Panels, take a moment to consider the underlying motivations driving your desires. What inspires you to chase this particular vision for your life? What compels you to pursue these goals? This self-awareness is crucial for defining your intentions and instilling a sense of purpose. This clarity will help you remain focused and committed to your objectives, even in the face of obstacles."
           />
 
           <SummaryItem
             title="Overcoming Fear"
-            paragraph="Many people struggle with the fear of failure, change, or criticism, but these feelings shouldn't hold you back from pursuing your dreams. It's important to recognize that true growth often comes from stepping outside your comfort zone. While your initial anxiety of starting something new may feel overwhelming, the lasting regret of not chasing your goals while you can, will linger much longer. Ultimately, you have the choice to endure the discomfort of discipline or the pain of regret. Stay focused on your objectives, trust your ability to succeed, and keep moving forward despite the fear."
+            paragraph="Many people struggle with the fear of failure, change, or criticism, but these feelings shouldn't hold you back from pursuing your dreams. It's important to recognize that true growth often comes from stepping outside your comfort zone. While your initial anxiety of starting something new may feel overwhelming, the lasting regret of not chasing your goals while you can, will linger much longer. Ultimately, we all have the choice to endure the discomfort of discipline or the pain of regret. Stay focused on your objectives, trust your ability to succeed, and keep moving forward despite the fear."
           />
         </div>
       </div>

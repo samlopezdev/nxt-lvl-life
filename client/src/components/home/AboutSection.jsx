@@ -13,16 +13,17 @@ export default function About() {
           create the life you want, it&apos;s important to reflect on what
           brings you happiness and fulfillment. This involves reflecting on past
           experiences, identifying your passions, and recognizing the
-          activities, relationships, and goals that make you feel the most alive.
+          activities, relationships, and goals that make you feel the most
+          alive.
         </p>
         <p className="mb-6 text-justify text-sm md:text-base">
-          <span className="font-semibold">NxtLvlLife</span> was
-          designed to help you create a clear picture of the life you want by
-          crafting customized vision boards that target various aspects of your
-          life. This can provide you with a much clearer understanding of your
-          goals and the steps needed to achieve them! By letting your heart and
-          desires govern the creative process without holding back, you
-          inheritly let this vision influence your day-to-day desicions.
+          <span className="font-semibold">NxtLvlLife</span> was designed to help
+          you create a clear picture of the life you want by crafting customized
+          Panels that target various aspects of your life. This provides you
+          with a much clearer understanding of your goals and the steps needed
+          to achieve them! When you allow your heart and desires to govern the
+          creative process without holding back, it becomes easier for that
+          vision to inherently influence your day-to-day decisions.
         </p>
       </div>
       <div className="w-1/3">
