@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import SquarePanel from "../components/profile/SquarePanel";
+import Panel from "../components/profile/Panel";
 
 export default function Login() {
   const [isLoading, setIsLoading] = useState(true);
@@ -19,7 +19,9 @@ export default function Login() {
           return
         }
 
-        const response = await fetch(`http://localhost:8000/profile/${tokenId}`);
+        const response = await fetch(
+          import.meta.env.VITE_BASE_URL + `/profile/${tokenId}`,
+        );
         const data = await response.json();
 
         if (response.ok) {
@@ -43,13 +45,16 @@ export default function Login() {
     e.preventDefault();
 
     const tokenId = localStorage.getItem("tokenId");
-    const response = await fetch("http://localhost:8000/profile/addPanel", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+    const response = await fetch(
+      import.meta.env.VITE_BASE_URL + "/profile/addPanel",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ tokenId, newPanelTitle }),
       },
-      body: JSON.stringify({ tokenId, newPanelTitle }),
-    });
+    );
 
     const data = await response.json();
     if (response.ok) {
@@ -94,7 +99,7 @@ export default function Login() {
             <div className="mx-auto size-14 animate-spin rounded-full border-4 border-t-accent"></div>
           ) : panels ? (
             panels.map((panel) => (
-              <SquarePanel
+              <Panel
                 key={panel._id}
                 panelId={panel._id}
                 title={panel.title}

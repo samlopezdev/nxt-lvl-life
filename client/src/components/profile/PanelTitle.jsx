@@ -14,17 +14,15 @@ export default function PanelTitle({ title }) {
 
   const handleEditTitle = () => {
     setIsEditing(true);
-    console.log("Editing...");
   };
 
   const handleUpdateTitle = async () => {
     try {
       setIsEditing(false);
-      console.log(`Saved .... ${currentTitle}`);
 
       const panel = sessionStorage.getItem("panelId");
-      const response = await fetch(
-        `http://localhost:8000/profile/updateTitle/${panel}`,
+      await fetch(
+        import.meta.env.VITE_BASE_URL + `/profile/updateTitle/${panel}`,
         {
           method: "PUT",
           headers: {
@@ -33,9 +31,6 @@ export default function PanelTitle({ title }) {
           body: JSON.stringify({ currentTitle }),
         },
       );
-
-      const data = await response.json();
-      console.log(data);
     } catch (err) {
       console.error(`Error with fetch... ${err}`);
     }
@@ -47,7 +42,7 @@ export default function PanelTitle({ title }) {
 
     try {
       await fetch(
-        `http://localhost:8000/profile/deleteAll/${panel}`,
+        import.meta.env.VITE_BASE_URL + `/profile/deleteAll/${panel}`,
         {
           method: "DELETE",
           headers: {

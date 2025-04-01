@@ -3,16 +3,15 @@ import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
 export default function PanelMedia({ cloudUrl, id, onDelete }) {
-    const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleDeleteImage = async () => {
     try {
-      setIsLoading(true)
+      setIsLoading(true);
       const panelid = sessionStorage.getItem("panelId");
-      console.log(panelid);
 
       const response = await fetch(
-        `http://localhost:8000/profile/deleteImage/${id}`,
+        import.meta.env.VITE_BASE_URL + `/profile/deleteImage/${id}`,
         {
           method: "DELETE",
           headers: {
@@ -24,12 +23,11 @@ export default function PanelMedia({ cloudUrl, id, onDelete }) {
 
       const data = await response.json();
 
-      if  (response.ok) {
+      if (response.ok) {
         onDelete(data);
       } else {
         console.error("Failed to delete image.");
       }
-      
     } catch (err) {
       console.error(`Caught in handleDeleteImage: ${err}`);
     } finally {

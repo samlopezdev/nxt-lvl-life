@@ -10,13 +10,16 @@ export default function GoalContent() {
         console.log('Adding Goal', newGoal)
         const panel = sessionStorage.getItem("panelId");
 
-        const response = await fetch("http://localhost:8000/profile/addGoal", {
+        const response = await fetch(
+          import.meta.env.VITE_BASE_URL + "/profile/addGoal",
+          {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
+              "Content-Type": "application/json",
             },
             body: JSON.stringify({ panel, newGoal }),
-        })
+          },
+        );
 
         const data = await response.json()
         console.log(data.allGoals)
@@ -26,7 +29,6 @@ export default function GoalContent() {
     }
 
     const handleDeleteGoal = (info) => {
-        console.log("DELETE GOAL", info);
         setGoalData(info.goals)
     }
 
@@ -35,7 +37,7 @@ export default function GoalContent() {
             const panelId = sessionStorage.getItem('panelId')
 
             const response = await fetch(
-              `http://localhost:8000/profile/goalData/${panelId}`,
+              import.meta.env.VITE_BASE_URL + `/profile/goalData/${panelId}`,
             );
             const data = await response.json()
             // console.log(data.goals.reverse())

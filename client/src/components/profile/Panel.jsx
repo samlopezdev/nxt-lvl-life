@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-export default function SquarePanel({ title, panelId}) {
+export default function Panel({ title, panelId}) {
     const navigate = useNavigate()
 
     const handleClick = () => {

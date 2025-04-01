@@ -48,7 +48,7 @@ export default function Panel() {
 
       try {
         const response = await fetch(
-          `http://localhost:8000/profile/panelData/${panelId}`,
+          `https://nxt-lvl-life-backend.onrender.com/profile/panelData/${panelId}`,
         );
 
         const data = await response.json();

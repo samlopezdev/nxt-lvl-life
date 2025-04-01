@@ -7,23 +7,29 @@ export default function Goal({ id, description, isComplete, onDelete }) {
   const markComplete = async () => {
     setClicked(!clicked);
 
-    await fetch(`http://localhost:8000/profile/markGoalComplete/${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
+    await fetch(
+      import.meta.env.VITE_BASE_URL + `/profile/markGoalComplete/${id}`,
+      {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
       },
-    });
+    );
   };
 
   const markIncomplete = async () => {
     setClicked(!clicked);
 
-    await fetch(`http://localhost:8000/profile/markGoalIncomplete/${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
+    await fetch(
+      import.meta.env.VITE_BASE_URL + `/profile/markGoalIncomplete/${id}`,
+      {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
       },
-    });
+    );
   };
 
   const handleDeleteGoal = async (e) => {
@@ -32,7 +38,7 @@ export default function Goal({ id, description, isComplete, onDelete }) {
     const panelid = sessionStorage.getItem("panelId");
 
     const response = await fetch(
-      `http://localhost:8000/profile/deleteGoal/${id}`,
+      import.meta.env.VITE_BASE_URL + `/profile/deleteGoal/${id}`,
       {
         method: "DELETE",
         headers: {
@@ -43,7 +49,6 @@ export default function Goal({ id, description, isComplete, onDelete }) {
     );
 
     const data = await response.json();
-    console.log(data);
     onDelete(data);
   };
 

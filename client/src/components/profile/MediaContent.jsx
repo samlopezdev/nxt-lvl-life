@@ -20,7 +20,7 @@ export default function MediaContent() {
 
       setIsLoading(true);
       const response = await fetch(
-        `http://localhost:8000/profile/addImage/${panelId}`,
+        import.meta.env.VITE_BASE_URL + `/profile/addImage/${panelId}`,
         {
           method: "POST",
           body: formData,
@@ -44,7 +44,6 @@ export default function MediaContent() {
   };
 
   const onDeleteImage = async (info) => {
-    console.log(info);
     setImages(info.reverse());
   };
 
@@ -54,7 +53,7 @@ export default function MediaContent() {
         const panelId = sessionStorage.getItem("panelId");
 
         const response = await fetch(
-          `http://localhost:8000/profile/mediaData/${panelId}`,
+          import.meta.env.VITE_BASE_URL + `/profile/mediaData/${panelId}`,
         );
         const data = await response.json();
         setImages(data.images.reverse());
