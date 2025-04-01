@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const connectDB = require("./config/db");
 const authRouter = require("./routes/authRoutes");
-const profileRoutes = require('./routes/profileRoutes')
+const profileRouter = require('./routes/profileRoutes')
 
 require("dotenv").config({ path: "./config/.env" });
 
@@ -16,7 +16,7 @@ app.use(express.json());
 
 // Routes
 app.use("/auth", authRouter);
-app.use('/profile', profileRoutes)
+app.use('/profile', profileRouter)
 
 // Listen
 app.listen(process.env.PORT || 5000, () => {
