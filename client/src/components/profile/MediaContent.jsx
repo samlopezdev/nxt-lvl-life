@@ -69,13 +69,15 @@ export default function MediaContent() {
   return (
     <section className="m-auto w-11/12">
       <div
-        className={images.length ? "columns-2 md:columns-4 lg:columns-5" : ""}
+        className={
+          images.length ? "columns-2 md:columns-4 lg:columns-5" : "columns-1"
+        }
       >
         <label
           htmlFor="file"
-          className="mb-4 flex cursor-pointer flex-col items-center justify-center gap-5 rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-5 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+          className="mb-4 block cursor-pointer break-inside-avoid rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 p-5 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
         >
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-2">
             <i className="bx bxs-image text-5xl text-accent"></i>
             <span className="text-xs text-gray-600">Images &lt; 10MB</span>
             <input
@@ -88,21 +90,21 @@ export default function MediaContent() {
               required
               aria-label="Select image file to upload"
             />
+            {error ? (
+              <h3 className="w-full text-center text-sm font-semibold text-red-500">
+                {error}
+              </h3>
+            ) : isLoading ? (
+              <div className="mx-auto size-8 animate-spin rounded-full border-4 border-t-accent"></div>
+            ) : (
+              <span className="rounded-lg bg-accent px-2 py-2 text-sm font-semibold text-light-green transition-colors [transition:.3s_ease] hover:bg-accent-hover md:px-3">
+                Add Image
+              </span>
+            )}
           </div>
-          {error ? (
-            <h3 className="w-full text-center text-sm font-semibold text-red-500">
-              {error}
-            </h3>
-          ) : isLoading ? (
-            <div className="mx-auto size-8 animate-spin rounded-full border-4 border-t-accent"></div>
-          ) : (
-            <span className="rounded-lg bg-accent px-2 py-2 text-sm font-semibold text-light-green transition-colors [transition:.3s_ease] hover:bg-accent-hover md:px-3">
-              Add Image
-            </span>
-          )}
         </label>
 
-        { images.length ? (
+        {images.length ? (
           images.map((img) => {
             return (
               <PanelMedia
