@@ -19,7 +19,7 @@ export default function InfoSection() {
           icon={"bx bxs-palette"}
           title={`Personalization is Key`}
           paragraph={
-            "Make detailed panels to bring your dream to life! Whether it's snapshots of the city you dream of living in, the delicious foods you wish to try, or even the aesthetic you want to embody."
+            "Build detailed panels to bring your dream to life! Whether it's snapshots of the city you dream of living in, the delicious foods you wish to try, or even the aesthetic you want to embody."
           }
           className="col-span-2"
         />
