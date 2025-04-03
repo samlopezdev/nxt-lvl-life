@@ -19,7 +19,7 @@ export default function SummarySection() {
         <div className="m-auto w-full xl:w-3/5">
           <SummaryItem
             title="The Importance of NxtLvlLife"
-            paragraph="NxtLvlLife is a resource aimed at helping individuals discover a deeper sense of purpose and direction. Whether you're just beginning your journey in life or seeking clarity in your later years, NxtLvlLife offers a space for anyone to envision their future in vivid detail. It encourages you to define your dreams and take realistic steps toward achieving them. With this approach, you can create a future that aligns with your true desires and helps you move closer to your ideal self."
+            paragraph="Nxt Lvl Life is a platform meant to help individuals discover a deeper sense of purpose and direction. Whether you're just beginning your journey in life or seeking clarity in your later years, Nxt Lvl Life offers a space for anyone to envision their future in vivid detail. It encourages you to define your dreams and take realistic steps toward achieving them. With this approach, you can create a future that aligns with your true desires and helps you move closer to your ideal self."
           />
 
           <SummaryItem
@@ -44,7 +44,7 @@ export default function SummarySection() {
 
           <SummaryItem
             title="Overcoming Fear"
-            paragraph="Many people struggle with the fear of failure, change, or criticism, but these feelings shouldn't hold you back from pursuing your dreams. It's important to recognize that true growth often comes from stepping outside your comfort zone. While your initial anxiety of starting something new may feel overwhelming, the lasting regret of not chasing your goals while you can, will linger much longer. Ultimately, we all have the choice to endure the discomfort of discipline or the pain of regret. Stay focused on your objectives, trust your ability to succeed, and keep moving forward despite the fear."
+            paragraph="Many people struggle with the fear of failure, change, or criticism, but these feelings shouldn't hold you back from pursuing your dream. It's important to recognize that true growth often comes from stepping outside your comfort zone. While your initial anxiety of starting something new may feel overwhelming, the lasting regret of not chasing your goals while you can, will last far longer. Ultimately, we all have the choice to endure the discomfort of discipline or the pain of regret. Stay focused on your objectives, trust your ability to succeed, and keep moving forward despite the fear."
           />
         </div>
       </div>

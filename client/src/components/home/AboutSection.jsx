@@ -9,15 +9,15 @@ export default function About() {
           Where Do You See Yourself In 5 Years?
         </h2>
         <p className="mb-6 text-justify text-sm md:text-base">
-          Many people go through life without a clear sense of purpose. To
-          create the life you want, it&apos;s important to reflect on what
-          brings you happiness and fulfillment. This involves reflecting on past
-          experiences, identifying your passions, and recognizing the
+          Many people go through life without a clear sense of direction. To
+          create a fulfilling life, it&apos;s important to contemplate on what genuinely
+          brings you happiness and a sense of purpose. This involves reflecting
+          on past experiences, identifying your passions, and recognizing the
           activities, relationships, and goals that make you feel the most
           alive.
         </p>
         <p className="mb-6 text-justify text-sm md:text-base">
-          <span className="font-semibold">NxtLvlLife</span> was designed to help
+          <span className="font-semibold">Nxt Lvl Life</span> was designed to help
           you create a clear picture of the life you want by crafting customized
           Panels that target various aspects of your life. This provides you
           with a much clearer understanding of your goals and the steps needed
