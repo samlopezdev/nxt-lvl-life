@@ -19,6 +19,7 @@ app.use("/auth", authRouter);
 app.use('/profile', profileRouter)
 
 // Listen
-app.listen(process.env.PORT || 5000, () => {
+const port = process.env.PORT || 5000
+app.listen(port, () => {
   console.log("App is Listening, Capn!");
 });
