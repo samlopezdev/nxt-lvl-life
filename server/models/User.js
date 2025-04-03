@@ -16,10 +16,10 @@ const UserSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    panels: {
-      type: [String],
-      default: ["Lifestyle", "Career", "Education"],
-    },
+    // panels: {
+    //   type: [String],
+    //   default: ["Lifestyle", "Career", "Education"],
+    // },
     lastLogin: {
       type: Date,
       default: Date.now,

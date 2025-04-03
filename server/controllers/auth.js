@@ -1,5 +1,6 @@
 const bcrypt = require("bcrypt");
 const User = require("../models/User");
+const Panels = require("../models/Panel");
 
 module.exports = {
   createUser: async (req, res) => {
@@ -34,6 +35,15 @@ module.exports = {
       // NEW USER saved to database
       await user.save();
 
+      // const defaultPanels = [
+      //   { title: "Career Goals", createdBy: user._id },
+      //   { title: "Personal Growth", createdBy: user._id },
+      //   { title: "Bucket List", createdBy: user._id },
+      // ];
+
+      // const panels = await Panels.insertMany(defaultPanels)
+
+      // console.log(panels)
       const { id, username: createdUserName, email: createdUserEmail } = user;
 
       res.status(201).json({ 
