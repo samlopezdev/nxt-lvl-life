@@ -38,7 +38,6 @@ export default function Login() {
         setIsLoading(false);
       }
 
-    // fetchProfileData();
   }, [navigate]);
 
   const handleAddPanel = async (e) => {
