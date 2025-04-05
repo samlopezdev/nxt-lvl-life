@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <header className="absolute left-0 top-0 z-10 w-full px-10 py-5 text-white [transition:.5s_ease] xl:px-48">
         <nav className="relative flex items-center justify-between">
-          <h2 className="text-2xl font-bold uppercase">Nxt Lvl Life</h2>
+          <h2 className="text-xl md:text-2xl font-bold uppercase">Nxt Lvl Life</h2>
 
           <NavAction />
         </nav>

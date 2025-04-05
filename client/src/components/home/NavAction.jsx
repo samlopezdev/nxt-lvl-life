@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function NavAction() {
     const tokenId = localStorage.getItem("tokenId");
     const btnClasses =
-      "rounded-lg px-1 py-2 [transition:.3s_ease] hover:bg-accent-hover md:px-3";
+      "rounded-lg px-1 py-2 [transition:.3s_ease] text-xs hover:bg-accent-hover md:px-3 md:text-sm lg:text-base";
 
       return (
         <div className="font-semibold">
