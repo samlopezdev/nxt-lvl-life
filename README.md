@@ -9,7 +9,7 @@ A comprehensive vision boarding application designed to assist individuals in ex
 
 ## How It's Made:
 
-**Tech used:** React.js, Tailwind CSS, Express.js, Node.js, MongoDB, JavaScript
+**Tech used:** React.js, Tailwind CSS, Express.js, Node.js, MongoDB, Cloudinary, JavaScript
 
 I was motivated to develop this project because I often wished I had a resource like this when I was younger. Back then, I often felt lost and overwhelmed by the multitude of choices and uncertainties ahead of me, and I wanted a tool that could help me figure out how I could live a fulfilling life. This app aims to provide that clarity and support, making it easier for others to navigate their own journeys by creating vision boards and setting achievable goals to reach their dreams. My goal was to build a platform where users can explore their passions and make informed choices, just like I wished I could have done in the past.
 
