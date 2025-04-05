@@ -39,7 +39,7 @@ export default function Login() {
   };
 
   return (
-    <section className="bg-img flex min-h-screen items-center justify-center bg-[url('/greenlandscape-full.webp')] bg-cover bg-center bg-no-repeat">
+    <section className="bg-img flex min-h-screen items-center justify-center bg-[url('/greenlandscape-full.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="z-2 relative w-1/3 rounded-xl border-2 border-white/40 bg-transparent px-8 py-10 text-white shadow-xl backdrop-blur-md">
         <h2 className="text-center text-4xl font-semibold uppercase">Login</h2>
         <form onSubmit={handleLogin} aria-labelledby="login-form">
