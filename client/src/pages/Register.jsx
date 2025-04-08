@@ -34,8 +34,8 @@ export default function Register() {
   };
 
   return (
-    <section className="bg-img flex min-h-screen items-center justify-center bg-[url('/greenlandscape-full.jpg')] bg-cover bg-center bg-no-repeat">
-      <div className="z-2 relative w-1/3 rounded-xl border-2 border-white/40 bg-transparent px-8 py-10 text-white shadow-xl backdrop-blur-md">
+    <section className="bg-img min-h-screen bg-[url('/greenlandscape-full.jpg')] bg-cover bg-center bg-no-repeat px-4">
+      <div className="z-2 relative m-auto translate-y-36 rounded-xl border-2 border-white/40 bg-transparent px-8 py-10 text-white shadow-xl backdrop-blur-md [transition:.5s_ease] md:w-1/2 xl:w-1/3">
         <h2 className="text-center text-4xl font-semibold uppercase">
           Sign Up
         </h2>
