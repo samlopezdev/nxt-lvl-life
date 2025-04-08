@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -10,25 +10,27 @@ export default function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    setIsLoading(true)
+    setIsLoading(true);
 
     try {
-      const response = await fetch(import.meta.env.VITE_BASE_URL + "/auth/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        import.meta.env.VITE_BASE_URL + "/auth/login",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email, password }),
         },
-        body: JSON.stringify({ email, password }),
-      });
+      );
 
       const data = await response.json();
 
       if (response.ok) {
         window.localStorage.setItem("tokenId", data.id);
         navigate("/profile");
-      }
-      else {
-        alert(data.message || "Login Error")
+      } else {
+        alert(data.message || "Login Error");
       }
     } catch (err) {
       console.error("Login error:", err);
@@ -39,8 +41,8 @@ export default function Login() {
   };
 
   return (
-    <section className="bg-img flex min-h-screen items-center justify-center bg-[url('/greenlandscape-full.jpg')] bg-cover bg-center bg-no-repeat">
-      <div className="z-2 relative w-1/3 rounded-xl border-2 border-white/40 bg-transparent px-8 py-10 text-white shadow-xl backdrop-blur-md">
+    <section className="bg-img min-h-screen bg-[url('/greenlandscape-full.jpg')] bg-cover bg-center bg-no-repeat p-4">
+      <div className="z-2 relative m-auto translate-y-1/2 rounded-xl border-2 border-white/40 bg-transparent px-8 py-10 text-white shadow-xl backdrop-blur-md [transition:.5s_ease] md:w-1/2 xl:w-1/3">
         <h2 className="text-center text-4xl font-semibold uppercase">Login</h2>
         <form onSubmit={handleLogin} aria-labelledby="login-form">
           <div className="relative my-8 h-12 w-full">
