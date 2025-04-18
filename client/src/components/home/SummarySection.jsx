@@ -4,7 +4,7 @@ export default function SummarySection() {
   return (
     <section className="bg-[url('pastelcity-full.jpg')] bg-cover bg-center bg-no-repeat px-5 py-20 text-light-green md:px-10 xl:bg-none">
       <h2 className="mb-16 text-balance text-center text-4xl font-semibold uppercase [transition:.3s_ease] lg:text-5xl xl:text-dark-green">
-        More About Nxt Level Life
+        More About Next Level Life
       </h2>
 
       <div className="flex-none gap-8 md:px-16 xl:flex">
@@ -18,8 +18,8 @@ export default function SummarySection() {
 
         <div className="m-auto w-full xl:w-3/5">
           <SummaryItem
-            title="The Importance of NxtLvlLife"
-            paragraph="Nxt Lvl Life is a platform meant to help individuals discover a deeper sense of purpose and direction. Whether you're just beginning your journey in life or seeking clarity in your later years, Nxt Lvl Life offers a space for anyone to envision their future in vivid detail. It encourages you to define your dreams and take realistic steps toward achieving them. With this approach, you can create a future that aligns with your true desires and helps you move closer to your ideal self."
+            title="The Importance of Next Level Life"
+            paragraph="Next Level Life is a platform meant to help individuals discover a deeper sense of purpose and direction. Whether you're just beginning your journey in life or seeking clarity in your later years, Next Level Life offers a space for anyone to envision their future in vivid detail. It encourages you to define your dreams and take realistic steps toward achieving them. With this approach, you can create a future that aligns with your true desires and helps you move closer to your ideal self."
           />
 
           <SummaryItem

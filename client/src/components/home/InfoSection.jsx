@@ -2,7 +2,7 @@ import InfoItem from "./InfoItem"
 
 export default function InfoSection() {
   return (
-    <section className="px-12 pt-28 text-dark-green md:px-0 lg:px-16">
+    <section id="start" className="px-12 pt-28 text-dark-green md:px-0 lg:px-16">
       <h2 className="mb-20 text-balance text-center text-4xl font-semibold uppercase [transition:.3s_ease] lg:text-5xl xl:text-dark-green">
         Design a Fullfilling Life
       </h2>

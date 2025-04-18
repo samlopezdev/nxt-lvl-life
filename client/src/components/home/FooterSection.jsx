@@ -22,11 +22,12 @@ export default function Footer() {
         </Link>
       </div>
       <p className="text-center text-xs leading-5 tracking-wide">
-        Copyright NxtLvlLife 2025. All Rights Reserved.
+        Copyright Next Level Life 2025. All Rights Reserved.
         <br /> Developed w/ ♥ by{" "}
         <Link
-          to={"https://www.linkedin.com/in/samlopezdev/"} target="_blank"
-          className="hover:scale-150 font-semibold"
+          to={"https://www.linkedin.com/in/samlopezdev/"}
+          target="_blank"
+          className="font-semibold hover:scale-150"
         >
           Samantha Lopez
         </Link>
