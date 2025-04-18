@@ -2,7 +2,7 @@ import SummaryItem from "./SummaryItem";
 
 export default function SummarySection() {
   return (
-    <section className="bg-[url('pastelcity-full.jpg')] bg-cover bg-center bg-no-repeat px-5 py-20 text-light-green md:px-10 xl:bg-none">
+    <section className="bg-[url('/pastelcity-full.jpg')] bg-cover bg-center bg-no-repeat px-5 py-20 text-light-green md:px-10 xl:bg-none">
       <h2 className="mb-16 text-balance text-center text-4xl font-semibold uppercase [transition:.3s_ease] lg:text-5xl xl:text-dark-green">
         More About Next Level Life
       </h2>
