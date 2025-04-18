@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="flex-none gap-8 bg-[url('greenlandscape-full.jpg')] bg-cover bg-center bg-no-repeat pb-32 pt-20 text-white md:px-10 xl:flex xl:items-center xl:justify-center xl:bg-none xl:text-dark-green">
+    <section className="flex-none gap-8 bg-[url('/greenlandscape-full.jpg')] bg-cover bg-center bg-no-repeat pb-32 pt-20 text-white md:px-10 xl:flex xl:items-center xl:justify-center xl:bg-none xl:text-dark-green">
       <div className="rounded-xl border-2 border-white/40 p-10 shadow-xl backdrop-blur-md xl:w-1/2 xl:border-none xl:text-dark-green xl:shadow-none">
         <h2 className="mb-8 text-balance text-center text-4xl font-semibold uppercase [transition:.3s_ease] lg:text-5xl">
           Where Do You See Yourself In 5 Years?
