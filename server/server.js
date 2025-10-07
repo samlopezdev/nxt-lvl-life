@@ -1,11 +1,12 @@
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, "config", ".env") });
+
 const express = require("express");
 const app = express();
 const cors = require("cors");
 const connectDB = require("./config/db");
 const authRouter = require("./routes/authRoutes");
-const profileRouter = require('./routes/profileRoutes')
-
-require("dotenv").config({ path: "./config/.env" });
+const profileRouter = require("./routes/profileRoutes");
 
 // Database connection
 connectDB();
@@ -16,10 +17,10 @@ app.use(express.json());
 
 // Routes
 app.use("/auth", authRouter);
-app.use('/profile', profileRouter)
+app.use("/profile", profileRouter);
 
 // Listen
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log("App is Listening, Capn!");
 });
