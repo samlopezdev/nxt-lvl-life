@@ -6,10 +6,10 @@ export default function Video() {
           Just Dreams
         </h2>
         <iframe
-          src="https://www.youtube.com/embed/0vGqf31zikQ?si=yLpXVdqTyMUm7UqZ"
+          src="https://www.youtube.com/embed/0vGqf31zikQ?si=xhopJYVMi1FIpekk"
           title="A YouTube video titled 'Don't Be Afraid to Fail Big, To Dream Big' where Denzel Washington gives speach about the importance of working hard to achieve goals everyday."
           loading="lazy"
-          referrerPolicy="no-referrer"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
           className="m-auto aspect-video w-full rounded-xl shadow-lg md:w-3/4 xl:w-1/2"
         ></iframe>
