@@ -24,7 +24,7 @@ export default function SummarySection() {
 
           <SummaryItem
             title="Create Custom Panels"
-            paragraph="After making an account, you can create your very own categories, or Panels! These Panels should represent different areas of your life that matter most to you— whether it's your profession, lifestyle choices, or financial goals. Use images that inspire you to bring these dreams to life! Be unapologetically creative and let your desires guide you. The goal here is to vividly illustrate your ideal future by creating a virtual vision board that captures your unfiltered dreams."
+            paragraph="After making an account, you can create your very own categories, or Panels! These Panels should represent different areas of your life that matter most to you— whether it's your profession, lifestyle choices, or financial goals. Use images that inspire you to bring these dreams to life! Be unapologetically creative and let your desires guide you. The goal here is to vividly illustrate your ideal future by creating a virtual vision board that captures your unfiltered dream."
           />
 
           <SummaryItem
@@ -44,7 +44,7 @@ export default function SummarySection() {
 
           <SummaryItem
             title="Overcoming Fear"
-            paragraph="Many people struggle with the fear of failure, change, or criticism, but these feelings shouldn't hold you back from pursuing your dream. It's important to recognize that true growth often comes from stepping outside your comfort zone. While your initial anxiety of starting something new may feel overwhelming, the lasting regret of not chasing your goals while you can, will last far longer. Ultimately, we all have the choice to endure the discomfort of discipline or the pain of regret. Stay focused on your objectives, trust your ability to succeed, and keep moving forward despite the fear."
+            paragraph="Many people struggle with the fear of failure, change, or criticism, but these feelings shouldn't hold you back from pursuing a life that you want. It's important to recognize that true growth often comes from stepping outside your comfort zone. While your initial anxiety of starting something new may feel overwhelming, the lasting regret of not chasing your goals while you can, will last far longer. Ultimately, we all have the choice to endure the discomfort of discipline or the pain of regret. Stay focused on your objectives, trust your ability to succeed, and keep moving forward despite the fear."
           />
         </div>
       </div>
