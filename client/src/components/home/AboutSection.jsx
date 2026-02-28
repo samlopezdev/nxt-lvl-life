@@ -7,7 +7,7 @@ export default function About() {
         </h2>
         <p className="mb-6 text-justify text-sm md:text-base">
           Many people go through life without a clear sense of direction. To
-          create a fulfilling life, it&apos;s important to contemplate on what
+          create a fulfilling life, it&apos;s important to think about what
           genuinely brings you happiness and a sense of purpose. This involves
           reflecting on past experiences, identifying your passions, and
           recognizing the activities, relationships, and goals that make you
